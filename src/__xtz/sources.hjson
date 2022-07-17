@@ -13,10 +13,10 @@ linux-x86_x64: {
 linux-arm64: {
     node: https://gitlab.com/tezos/tezos/-/jobs/2727277834/artifacts/raw/tezos-binaries/arm64/tezos-node
     client: https://gitlab.com/tezos/tezos/-/jobs/2727277834/artifacts/raw/tezos-binaries/arm64/tezos-client
-        
+    
     accuser: https://gitlab.com/tezos/tezos/-/jobs/2727277834/artifacts/raw/tezos-binaries/arm64/tezos-accuser-013-PtJakart
     baker: https://gitlab.com/tezos/tezos/-/jobs/2727277834/artifacts/raw/tezos-binaries/arm64/tezos-baker-013-PtJakart
-
+    
     accuser-next: https://gitlab.com/tezos/tezos/-/jobs/2727277834/artifacts/raw/tezos-binaries/arm64/tezos-accuser-014-PtKathma
     baker-next: https://gitlab.com/tezos/tezos/-/jobs/2727277834/artifacts/raw/tezos-binaries/arm64/tezos-baker-014-PtKathma
 }

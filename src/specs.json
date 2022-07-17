@@ -1,6 +1,6 @@
 {
     "id": "xtz.node.kathmandu" ,
-    "version" : "0.0.11+14.0.jakarta_kathmandu",
+    "version" : "0.0.12+14.0.jakarta_kathmandu",
     "dependencies": [
         { "id":"xtz.node" }
     ]
