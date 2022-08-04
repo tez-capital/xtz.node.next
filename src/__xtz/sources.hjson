@@ -18,5 +18,5 @@ linux-arm64: {
     baker: https://gitlab.com/api/v4/projects/3836952/packages/generic/tezos-14.0/14.0/arm64-tezos-baker-013-PtJakart
 
     accuser-next: https://gitlab.com/api/v4/projects/3836952/packages/generic/tezos-14.0/14.0/arm64-tezos-accuser-014-PtKathma
-    baker-next: https://gitlab.com/api/v4/projects/3836952/packages/generic/tezos-14.0/14.0/ax86_64rm64-tezos-baker-014-PtKathma
+    baker-next: https://gitlab.com/api/v4/projects/3836952/packages/generic/tezos-14.0/14.0/arm64-tezos-baker-014-PtKathma
 }
