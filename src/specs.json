@@ -1,6 +1,6 @@
 {
-    "id": "xtz.node.kathmandu_lima" ,
-    "version" : "0.0.17+15.1.kathmandu_lima",
+    "id": "xtz.node.lima" ,
+    "version" : "0.0.18+15.1.lima",
     "dependencies": [
         { "id":"xtz.node" }
     ]
