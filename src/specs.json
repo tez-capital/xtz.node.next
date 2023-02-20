@@ -1,6 +1,6 @@
 {
-    "id": "xtz.node.octez.16.0.rc1.lima_mumbai" ,
-    "version" : "0.0.21+16.0.rc1.lima_mumbai",
+    "id": "xtz.node.octez.16.0.rc2.lima_mumbai" ,
+    "version" : "0.0.22+16.0.rc2.lima_mumbai",
     "dependencies": [
         { "id":"xtz.node" }
     ]
