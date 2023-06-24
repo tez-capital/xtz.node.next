@@ -1,6 +1,6 @@
 {
-    "id": "xtz.node.octez.17.1.mumbai_nairobi" ,
-    "version" : "0.0.30+17.1.mumbai_nairobi",
+    "id": "xtz.node.octez.17.1.nairobi" ,
+    "version" : "0.0.31+17.1.nairobi",
     "dependencies": [
         { "id":"xtz.node" }
     ]
