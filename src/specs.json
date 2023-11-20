@@ -1,6 +1,6 @@
 {
-    "id": "xtz.node.octez.18.0.nairobi" ,
-    "version" : "0.0.36+18.0.nairobi",
+    "id": "xtz.node.octez.18.1.nairobi" ,
+    "version" : "0.0.37+18.1.nairobi",
     "dependencies": [
         { "id":"xtz.node" }
     ]
