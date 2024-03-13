@@ -1,7 +1,7 @@
 {
-    "id": "xtz.node.octez.19.1.oxford" ,
-    "version" : "0.1.0+19.1.oxford",
+    "id": "xtz.node.next" ,
+    "version" : "0.1.1+19.1.oxford",
     "dependencies": [
         { "id":"xtz.node" }
     ]
-} 
+}
