@@ -1,22 +1,19 @@
 // SOURCE: https://gitlab.com/tezos/tezos/-/releases
-
-linux-x86_x64: {
-    node: https://gitlab.com/api/v4/projects/3836952/packages/generic/octez-binaries-20.0-rc1/20.0-rc1/x86_64-octez-node
-    client: https://gitlab.com/api/v4/projects/3836952/packages/generic/octez-binaries-20.0-rc1/20.0-rc1/x86_64-octez-client
-
-    accuser: https://gitlab.com/api/v4/projects/3836952/packages/generic/octez-binaries-20.0-rc1/20.0-rc1/x86_64-octez-accuser-Proxford
-    baker: https://gitlab.com/api/v4/projects/3836952/packages/generic/octez-binaries-20.0-rc1/20.0-rc1/x86_64-octez-baker-Proxford
-
-    accuser-next: https://gitlab.com/api/v4/projects/3836952/packages/generic/octez-binaries-20.0-rc1/20.0-rc1/x86_64-octez-accuser-PtParisB
-    baker-next: https://gitlab.com/api/v4/projects/3836952/packages/generic/octez-binaries-20.0-rc1/20.0-rc1/x86_64-octez-baker-PtParisB
-}
-linux-arm64: {
-    node: https://gitlab.com/api/v4/projects/3836952/packages/generic/octez-binaries-20.0-rc1/20.0-rc1/arm64-octez-node
-    client: https://gitlab.com/api/v4/projects/3836952/packages/generic/octez-binaries-20.0-rc1/20.0-rc1/arm64-octez-client
-
-    accuser: https://gitlab.com/api/v4/projects/3836952/packages/generic/octez-binaries-20.0-rc1/20.0-rc1/arm64-octez-accuser-Proxford
-    baker: https://gitlab.com/api/v4/projects/3836952/packages/generic/octez-binaries-20.0-rc1/20.0-rc1/arm64-octez-baker-Proxford
-
-    accuser-next: https://gitlab.com/api/v4/projects/3836952/packages/generic/octez-binaries-20.0-rc1/20.0-rc1/arm64-octez-accuser-PtParisB
-    baker-next: https://gitlab.com/api/v4/projects/3836952/packages/generic/octez-binaries-20.0-rc1/20.0-rc1/arm64-octez-baker-PtParisB
+{
+    linux-x86_64: {
+        client: https://gitlab.com/tezos/tezos/-/package_files/130339263/download
+        accuser-next: https://gitlab.com/tezos/tezos/-/package_files/130339641/download
+        baker-next: https://gitlab.com/tezos/tezos/-/package_files/130339715/download
+        baker: https://gitlab.com/tezos/tezos/-/package_files/130339874/download
+        accuser: https://gitlab.com/tezos/tezos/-/package_files/130339791/download
+        node: https://gitlab.com/tezos/tezos/-/package_files/130339583/download
+    }
+    linux-arm64: {
+        client: https://gitlab.com/tezos/tezos/-/package_files/130342347/download
+        accuser-next: https://gitlab.com/tezos/tezos/-/package_files/130342889/download
+        baker-next: https://gitlab.com/tezos/tezos/-/package_files/130342958/download
+        baker: https://gitlab.com/tezos/tezos/-/package_files/130343131/download
+        accuser: https://gitlab.com/tezos/tezos/-/package_files/130343040/download
+        node: https://gitlab.com/tezos/tezos/-/package_files/130342826/download
+    }
 }
