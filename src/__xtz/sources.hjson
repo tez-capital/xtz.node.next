@@ -1,5 +1,6 @@
 // SOURCE: https://gitlab.com/tezos/tezos/-/releases
 // PROTOCOLS: PsParisC, PsquebeC
+
 {
     linux-arm64: {
         baker-next: https://gitlab.com/tezos/tezos/-/package_files/148375495/download
