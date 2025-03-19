@@ -1,6 +1,6 @@
 {
     "id": "xtz.node.next" ,
-    "version" : "0.1.13+octez.22.0-rc1.quebec",
+    "version" : "0.1.14+octez.22.0-rc2.quebec",
     "dependencies": [
         { "id":"xtz.node" }
     ]

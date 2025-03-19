@@ -1,18 +1,22 @@
 // SOURCE: https://gitlab.com/tezos/tezos/-/releases
-// PROTOCOLS: PsQuebec
+// PROTOCOLS: PsQuebec, PsRiotum
 {
     linux-arm64: {
-        accuser: https://gitlab.com/tezos/tezos/-/package_files/177425856/download
-        baker: https://gitlab.com/tezos/tezos/-/package_files/177425892/download
-        client: https://gitlab.com/tezos/tezos/-/package_files/177425639/download
-        node: https://gitlab.com/tezos/tezos/-/package_files/177425816/download
+        accuser: https://gitlab.com/tezos/tezos/-/package_files/181178753/download
+        accuser-next: https://gitlab.com/tezos/tezos/-/package_files/181178712/download
+        baker: https://gitlab.com/tezos/tezos/-/package_files/181178774/download
+        baker-next: https://gitlab.com/tezos/tezos/-/package_files/181178742/download
+        client: https://gitlab.com/tezos/tezos/-/package_files/181178371/download
+        node: https://gitlab.com/tezos/tezos/-/package_files/181178693/download
         prism: https://github.com/alis-is/prism-releases/releases/download/0.0.20/prism-linux-arm64
     }
     linux-x86_64: {
-        accuser: https://gitlab.com/tezos/tezos/-/package_files/177424737/download
-        baker: https://gitlab.com/tezos/tezos/-/package_files/177424766/download
-        client: https://gitlab.com/tezos/tezos/-/package_files/177424318/download
-        node: https://gitlab.com/tezos/tezos/-/package_files/177424570/download
+        accuser: https://gitlab.com/tezos/tezos/-/package_files/181177205/download
+        accuser-next: https://gitlab.com/tezos/tezos/-/package_files/181177140/download
+        baker: https://gitlab.com/tezos/tezos/-/package_files/181177262/download
+        baker-next: https://gitlab.com/tezos/tezos/-/package_files/181177166/download
+        client: https://gitlab.com/tezos/tezos/-/package_files/181176912/download
+        node: https://gitlab.com/tezos/tezos/-/package_files/181177090/download
         prism: https://github.com/alis-is/prism-releases/releases/download/0.0.20/prism-linux-amd64
     }
 }
