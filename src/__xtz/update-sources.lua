@@ -39,10 +39,12 @@ for platform, sources in pairs(current_sources) do
 
 		-- build asset id => <arch>-octez-<source_id>
 		local asset_ids = { [source_id] = arch .. "-octez-" .. source_id }
-		if source_id:match("baker") or source_id:match("accuser") then
-			asset_ids[source_id] = arch .. "-octez-" .. source_id .. "-" .. protocol
-			if protocol_next then
-				asset_ids[source_id .. "-next"] = arch .. "-octez-" .. source_id .. "-" .. protocol_next
+		if protocol ~= "agnostic" then
+			if source_id:match("baker") or source_id:match("accuser") then
+				asset_ids[source_id] = arch .. "-octez-" .. source_id .. "-" .. protocol
+				if protocol_next then
+					asset_ids[source_id .. "-next"] = arch .. "-octez-" .. source_id .. "-" .. protocol_next
+				end
 			end
 		end
 
