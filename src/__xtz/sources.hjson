@@ -1,22 +1,22 @@
 // SOURCE: https://gitlab.com/tezos/tezos/-/releases
-// PROTOCOLS: PtSeouLo, PsRiotum
+// PROTOCOLS: PsRiotum, PtSeouLo
 {
     linux-arm64: {
-        baker: https://gitlab.com/tezos/tezos/-/package_files/214561658/download
-        accuser: https://gitlab.com/tezos/tezos/-/package_files/214561623/download
+        baker: https://gitlab.com/tezos/tezos/-/package_files/214561739/download
+        prism: https://github.com/alis-is/prism-releases/releases/download/0.0.20/prism-linux-arm64
+        accuser: https://gitlab.com/tezos/tezos/-/package_files/214561688/download
         client: https://gitlab.com/tezos/tezos/-/package_files/214561128/download
         node: https://gitlab.com/tezos/tezos/-/package_files/214561590/download
-        baker-next: https://gitlab.com/tezos/tezos/-/package_files/214561739/download
-        prism: https://github.com/alis-is/prism-releases/releases/download/0.0.20/prism-linux-arm64
-        accuser-next: https://gitlab.com/tezos/tezos/-/package_files/214561688/download
+        accuser-next: https://gitlab.com/tezos/tezos/-/package_files/214561623/download
+        baker-next: https://gitlab.com/tezos/tezos/-/package_files/214561658/download
     }
     linux-x86_64: {
-        baker: https://gitlab.com/tezos/tezos/-/package_files/214559358/download
-        accuser: https://gitlab.com/tezos/tezos/-/package_files/214559302/download
+        baker: https://gitlab.com/tezos/tezos/-/package_files/214559454/download
+        prism: https://github.com/alis-is/prism-releases/releases/download/0.0.20/prism-linux-amd64
+        accuser: https://gitlab.com/tezos/tezos/-/package_files/214559407/download
         client: https://gitlab.com/tezos/tezos/-/package_files/214558902/download
         node: https://gitlab.com/tezos/tezos/-/package_files/214559227/download
-        baker-next: https://gitlab.com/tezos/tezos/-/package_files/214559454/download
-        prism: https://github.com/alis-is/prism-releases/releases/download/0.0.20/prism-linux-amd64
-        accuser-next: https://gitlab.com/tezos/tezos/-/package_files/214559407/download
+        accuser-next: https://gitlab.com/tezos/tezos/-/package_files/214559302/download
+        baker-next: https://gitlab.com/tezos/tezos/-/package_files/214559358/download
     }
 }
