@@ -1,6 +1,6 @@
 {
     "id": "xtz.node.next" ,
-    "version" : "0.1.18+octez.23.0.rc2.rio_seoul",
+    "version" : "23.2.0+S_ready",
     "dependencies": [
         { "id":"xtz.node" }
     ]
