@@ -1,5 +1,5 @@
 // SOURCE: https://gitlab.com/tezos/tezos/-/packages/49323155 
-// macOS SOURCE: https://github.com/tez-capital/tezos-macos-pipeline/releases/tag/octez-v23.2-2025-09-08_15-36
+// macOS SOURCE: https://github.com/tez-capital/tezos-macos-pipeline/releases/tag/octez-v24.0-beta1-2025-11-21_05-20
 {
 	linux-arm64: {
 		accuser: https://gitlab.com/tezos/tezos/-/package_files/248489374/download

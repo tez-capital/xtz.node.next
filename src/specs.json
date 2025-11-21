@@ -1,6 +1,6 @@
 {
     "id": "xtz.node.next" ,
-    "version" : "24.0.0-beta1+T",
+    "version" : "24.0.1-beta1+T",
     "dependencies": [
         { "id":"xtz.node" }
     ]
