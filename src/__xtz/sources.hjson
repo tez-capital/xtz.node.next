@@ -1,18 +1,110 @@
-// SOURCE: https://gitlab.com/tezos/tezos/-/packages/49323155 
-// macOS SOURCE: https://github.com/tez-capital/tezos-macos-pipeline/releases/tag/octez-v24.0-beta1-2025-11-21_05-20
+// SOURCE: https://octez.tezos.com/releases 
+// macOS SOURCE: https://github.com/tez-capital/tezos-macos-pipeline/releases 
+// Prism SOURCE: https://github.com/alis-is/prism-releases/releases 
 {
+	darwin-arm64: {
+		accuser: {
+			sha256: 0f3a615ebaccacb0ceb4fe2d8bbe36445feaf1a0bceea21b2aeb9654ccd24ca7
+			url: https://github.com/tez-capital/tezos-macos-pipeline/releases/download/octez-v25.0-beta1-2026-04-30_14-35/octez-accuser
+			version: 25.0-beta1
+		}
+		baker: {
+			sha256: 006281b4df8ef72b48a1efb21707ebcd76dbe6278539213c6229e1018274bd65
+			url: https://github.com/tez-capital/tezos-macos-pipeline/releases/download/octez-v25.0-beta1-2026-04-30_14-35/octez-baker
+			version: 25.0-beta1
+		}
+		client: {
+			sha256: 8f34c8757fb3a3522fd13d05de21f8227a6e3c5d5ca30ff2b7ea1cec428651b9
+			url: https://github.com/tez-capital/tezos-macos-pipeline/releases/download/octez-v25.0-beta1-2026-04-30_14-35/octez-client
+			version: 25.0-beta1
+		}
+		node: {
+			sha256: c06566e6473e40c7750e1fa047b6e081f2904c92c5968d1dbc1e63c38505ea53
+			url: https://github.com/tez-capital/tezos-macos-pipeline/releases/download/octez-v25.0-beta1-2026-04-30_14-35/octez-node
+			version: 25.0-beta1
+		}
+		prism: {
+			sha256: a9352724d479fcdce5eccc63b340cc3c82ccebd50c5e25bc9627da3b9898feaa
+			url: https://github.com/alis-is/prism-releases/releases/download/0.4.7/prism-macos-arm64
+			version: 0.4.7
+		}
+	}
 	linux-arm64: {
-		accuser: https://gitlab.com/tezos/tezos/-/package_files/248489374/download
-		baker: https://gitlab.com/tezos/tezos/-/package_files/248489586/download
-		client: https://gitlab.com/tezos/tezos/-/package_files/248489144/download
-		node: https://gitlab.com/tezos/tezos/-/package_files/248489691/download
-		prism: https://github.com/alis-is/prism-releases/releases/download/0.0.20/prism-linux-arm64
+		accuser: {
+			mirrors: {
+				gitlab: https://gitlab.com/api/v4/projects/3836952/packages/generic/octez-binaries-25.0-beta1/25.0-beta1/arm64-octez-accuser
+			}
+			sha256: c337af2157ea3d26dc0811f661e89809e9ecc809ed2448e55c50569f804d24ec
+			url: https://octez.tezos.com/releases/octez-v25.0-beta1/binaries/arm64/octez-accuser
+			version: 25.0-beta1
+		}
+		baker: {
+			mirrors: {
+				gitlab: https://gitlab.com/api/v4/projects/3836952/packages/generic/octez-binaries-25.0-beta1/25.0-beta1/arm64-octez-baker
+			}
+			sha256: 87df06c5f34cbf2c1cdf9b9ff78e5058176c0a974755eaba201808fbf8e640b6
+			url: https://octez.tezos.com/releases/octez-v25.0-beta1/binaries/arm64/octez-baker
+			version: 25.0-beta1
+		}
+		client: {
+			mirrors: {
+				gitlab: https://gitlab.com/api/v4/projects/3836952/packages/generic/octez-binaries-25.0-beta1/25.0-beta1/arm64-octez-client
+			}
+			sha256: bb16a0020bbaa827d0fac2e1527df684cada72a31388a96504cefd91c70da830
+			url: https://octez.tezos.com/releases/octez-v25.0-beta1/binaries/arm64/octez-client
+			version: 25.0-beta1
+		}
+		node: {
+			mirrors: {
+				gitlab: https://gitlab.com/api/v4/projects/3836952/packages/generic/octez-binaries-25.0-beta1/25.0-beta1/arm64-octez-node
+			}
+			sha256: 808b778bc02c836955c18a1f1b5063d7f1b86a9500e9c1c9a39919ae5cd9d84b
+			url: https://octez.tezos.com/releases/octez-v25.0-beta1/binaries/arm64/octez-node
+			version: 25.0-beta1
+		}
+		prism: {
+			sha256: 4b8b51bc6bf7a4de3938a1aa36e4d6bc07dcceebe9de5052ad1d2f158ba550b3
+			url: https://github.com/alis-is/prism-releases/releases/download/0.4.7/prism-linux-arm64
+			version: 0.4.7
+		}
 	}
 	linux-x86_64: {
-		accuser: https://gitlab.com/tezos/tezos/-/package_files/248487307/download
-		baker: https://gitlab.com/tezos/tezos/-/package_files/248487490/download
-		client: https://gitlab.com/tezos/tezos/-/package_files/248487065/download
-		node: https://gitlab.com/tezos/tezos/-/package_files/248487609/download
-		prism: https://github.com/alis-is/prism-releases/releases/download/0.0.20/prism-linux-amd64
+		accuser: {
+			mirrors: {
+				gitlab: https://gitlab.com/api/v4/projects/3836952/packages/generic/octez-binaries-25.0-beta1/25.0-beta1/x86_64-octez-accuser
+			}
+			sha256: 676c11789b3ef3bb96e2cf35760046362e0238e6b7772a357ca613952ea1648a
+			url: https://octez.tezos.com/releases/octez-v25.0-beta1/binaries/x86_64/octez-accuser
+			version: 25.0-beta1
+		}
+		baker: {
+			mirrors: {
+				gitlab: https://gitlab.com/api/v4/projects/3836952/packages/generic/octez-binaries-25.0-beta1/25.0-beta1/x86_64-octez-baker
+			}
+			sha256: b9eb3d9daf2872945cd8aa2884b233fb80f5826577874d57763e1d3b631a15ad
+			url: https://octez.tezos.com/releases/octez-v25.0-beta1/binaries/x86_64/octez-baker
+			version: 25.0-beta1
+		}
+		client: {
+			mirrors: {
+				gitlab: https://gitlab.com/api/v4/projects/3836952/packages/generic/octez-binaries-25.0-beta1/25.0-beta1/x86_64-octez-client
+			}
+			sha256: 1b22f158576b6b7c308daadd0450688e40f831af9dff945da73be037f5ec5b07
+			url: https://octez.tezos.com/releases/octez-v25.0-beta1/binaries/x86_64/octez-client
+			version: 25.0-beta1
+		}
+		node: {
+			mirrors: {
+				gitlab: https://gitlab.com/api/v4/projects/3836952/packages/generic/octez-binaries-25.0-beta1/25.0-beta1/x86_64-octez-node
+			}
+			sha256: f685f9766e61f418d330f1bc742f58b8823f93e9b210ae576a7edcd713cc52f6
+			url: https://octez.tezos.com/releases/octez-v25.0-beta1/binaries/x86_64/octez-node
+			version: 25.0-beta1
+		}
+		prism: {
+			sha256: 184e10f55a2b5de60a26682207325d3b0addfcce5e02f328be37272013dd2445
+			url: https://github.com/alis-is/prism-releases/releases/download/0.4.7/prism-linux-amd64
+			version: 0.4.7
+		}
 	}
 }
